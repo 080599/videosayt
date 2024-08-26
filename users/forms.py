@@ -1,5 +1,5 @@
 from django import forms
-from .models import Video, User
+from content.models import Video, User
 
 class VideoForm(forms.ModelForm):
     class Meta:
